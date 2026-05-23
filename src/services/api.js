@@ -1,4 +1,4 @@
-const BASE = "http://127.0.0.1:8000";
+const BASE = "https://povertylens-backend-production.up.railway.app";
 
 export async function fetchMapData() {
   const res = await fetch(`${BASE}/map`);
